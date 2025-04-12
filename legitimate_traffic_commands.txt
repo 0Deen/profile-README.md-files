@@ -1,0 +1,40 @@
+echo '🟢 Legitimate traffic detected.' && h1 ping -c 3 h2
+echo '🟢 Legitimate traffic detected.' && h1 ping -c 3 h3
+echo '🟢 Legitimate traffic detected.' && h1 ping -c 3 h4
+echo '🟢 Legitimate traffic detected.' && h2 ping -c 3 h1
+echo '🟢 Legitimate traffic detected.' && h2 ping -c 3 h3
+echo '🟢 Legitimate traffic detected.' && h2 ping -c 3 h4
+echo '🟢 Legitimate traffic detected.' && h3 ping -c 3 h1
+echo '🟢 Legitimate traffic detected.' && h3 ping -c 3 h2
+echo '🟢 Legitimate traffic detected.' && h3 ping -c 3 h4
+echo '🟢 Legitimate traffic detected.' && h4 ping -c 3 h1
+echo '🟢 Legitimate traffic detected.' && h4 ping -c 3 h2
+echo '🟢 Legitimate traffic detected.' && h4 ping -c 3 h3
+echo '🟢 Legitimate traffic detected.' && h1 iperf -s &
+echo '🟢 Legitimate traffic detected.' && h2 iperf -c h1 -t 5
+echo '🟢 Legitimate traffic detected.' && h3 iperf -c h1 -t 5
+echo '🟢 Legitimate traffic detected.' && h4 iperf -c h1 -t 5
+echo '🟢 Legitimate traffic detected.' && h1 python3 -m http.server 80 &
+echo '🟢 Legitimate traffic detected.' && h2 wget h1
+echo '🟢 Legitimate traffic detected.' && h3 wget h1
+echo '🟢 Legitimate traffic detected.' && h4 wget h1
+echo '🟢 Legitimate traffic detected.' && h1 ping -i 1 -c 5 h2
+echo '🟢 Legitimate traffic detected.' && h2 ping -i 1 -c 5 h3
+echo '🟢 Legitimate traffic detected.' && h3 ping -i 1 -c 5 h4
+echo '🟢 Legitimate traffic detected.' && h4 ping -i 1 -c 5 h1
+echo '🟢 Legitimate traffic detected.' && h1 ping -c 3 h2
+echo '🟢 Legitimate traffic detected.' && h1 ping -c 3 h3
+echo '🟢 Legitimate traffic detected.' && h1 ping -c 3 h4
+echo '🟢 Legitimate traffic detected.' && h2 ping -c 3 h1
+echo '🟢 Legitimate traffic detected.' && h2 ping -c 3 h3
+echo '🟢 Legitimate traffic detected.' && h2 ping -c 3 h4
+echo '🟢 Legitimate traffic detected.' && h3 ping -c 3 h1
+echo '🟢 Legitimate traffic detected.' && h3 ping -c 3 h2
+echo '🟢 Legitimate traffic detected.' && h3 ping -c 3 h4
+echo '🟢 Legitimate traffic detected.' && h4 ping -c 3 h1
+echo '🟢 Legitimate traffic detected.' && h4 ping -c 3 h2
+echo '🟢 Legitimate traffic detected.' && h4 ping -c 3 h3
+echo '🟢 Legitimate traffic detected.' && h1 iperf -s &
+echo '🟢 Legitimate traffic detected.' && h2 iperf -c h1 -t 5
+echo '🟢 Legitimate traffic detected.' && h3 iperf -c h1 -t 5
+echo '🟢 Legitimate traffic detected.' && h4 iperf -c h1 -t 5

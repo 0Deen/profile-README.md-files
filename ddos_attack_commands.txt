@@ -1,0 +1,40 @@
+echo '🔴 DDoS attack suspected!' && h2 ping -i 0.1 h1 &
+echo '🔴 DDoS attack suspected!' && h3 ping -i 0.1 h1 &
+echo '🔴 DDoS attack suspected!' && h4 ping -i 0.1 h1 &
+echo '🔴 DDoS attack suspected!' && h2 hping3 -S --flood -p 80 h1 &
+echo '🔴 DDoS attack suspected!' && h3 hping3 -S --flood -p 80 h1 &
+echo '🔴 DDoS attack suspected!' && h4 hping3 -S --flood -p 80 h1 &
+echo '🔴 DDoS attack suspected!' && h2 nping --tcp -p 80 --rate 1000 -c 10000 h1 &
+echo '🔴 DDoS attack suspected!' && h3 nping --tcp -p 80 --rate 1000 -c 10000 h1 &
+echo '🔴 DDoS attack suspected!' && h4 nping --tcp -p 80 --rate 1000 -c 10000 h1 &
+echo '🔴 DDoS attack suspected!' && h2 ping -i 0.1 h1 &
+echo '🔴 DDoS attack suspected!' && h3 ping -i 0.1 h1 &
+echo '🔴 DDoS attack suspected!' && h4 ping -i 0.1 h1 &
+echo '🔴 DDoS attack suspected!' && h2 hping3 -S --flood -p 80 h1 &
+echo '🔴 DDoS attack suspected!' && h3 hping3 -S --flood -p 80 h1 &
+echo '🔴 DDoS attack suspected!' && h4 hping3 -S --flood -p 80 h1 &
+echo '🔴 DDoS attack suspected!' && h2 nping --tcp -p 80 --rate 1000 -c 10000 h1 &
+echo '🔴 DDoS attack suspected!' && h3 nping --tcp -p 80 --rate 1000 -c 10000 h1 &
+echo '🔴 DDoS attack suspected!' && h4 nping --tcp -p 80 --rate 1000 -c 10000 h1 &
+echo '🔴 DDoS attack suspected!' && h2 ping -i 0.1 h1 &
+echo '🔴 DDoS attack suspected!' && h3 ping -i 0.1 h1 &
+echo '🔴 DDoS attack suspected!' && h4 ping -i 0.1 h1 &
+echo '🔴 DDoS attack suspected!' && h2 hping3 -S --flood -p 80 h1 &
+echo '🔴 DDoS attack suspected!' && h3 hping3 -S --flood -p 80 h1 &
+echo '🔴 DDoS attack suspected!' && h4 hping3 -S --flood -p 80 h1 &
+echo '🔴 DDoS attack suspected!' && h2 nping --tcp -p 80 --rate 1000 -c 10000 h1 &
+echo '🔴 DDoS attack suspected!' && h3 nping --tcp -p 80 --rate 1000 -c 10000 h1 &
+echo '🔴 DDoS attack suspected!' && h4 nping --tcp -p 80 --rate 1000 -c 10000 h1 &
+echo '🔴 DDoS attack suspected!' && h2 ping -i 0.1 h1 &
+echo '🔴 DDoS attack suspected!' && h3 ping -i 0.1 h1 &
+echo '🔴 DDoS attack suspected!' && h4 ping -i 0.1 h1 &
+echo '🔴 DDoS attack suspected!' && h2 hping3 -S --flood -p 80 h1 &
+echo '🔴 DDoS attack suspected!' && h3 hping3 -S --flood -p 80 h1 &
+echo '🔴 DDoS attack suspected!' && h4 hping3 -S --flood -p 80 h1 &
+echo '🔴 DDoS attack suspected!' && h2 nping --tcp -p 80 --rate 1000 -c 10000 h1 &
+echo '🔴 DDoS attack suspected!' && h3 nping --tcp -p 80 --rate 1000 -c 10000 h1 &
+echo '🔴 DDoS attack suspected!' && h4 nping --tcp -p 80 --rate 1000 -c 10000 h1 &
+echo '🔴 DDoS attack suspected!' && h2 ping -i 0.1 h1 &
+echo '🔴 DDoS attack suspected!' && h3 ping -i 0.1 h1 &
+echo '🔴 DDoS attack suspected!' && h4 ping -i 0.1 h1 &
+echo '🔴 DDoS attack suspected!' && h2 hping3 -S --flood -p 80 h1 &
