@@ -11,7 +11,6 @@ from mininet.node import OVSKernelSwitch, RemoteController
 class MyTopo( Topo ):
 
     def build( self ):
-
         s1 = self.addSwitch( 's1', cls=OVSKernelSwitch, protocols='OpenFlow13' )
 
         h1 = self.addHost( 'h1', cpu=1.0/20,mac="00:00:00:00:00:01", ip="10.0.0.1/24" )
